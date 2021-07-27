@@ -2409,6 +2409,49 @@ body {
 }
 
 /*--------------------------------------------------------------
+# Visulization 3
+--------------------------------------------------------------*/
+html,
+body {
+  padding-top: 40px;
+  margin: 0;
+}
+
+.axis {
+  font: 14px sans-serif;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.form-group {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#datetime{
+  border-color: steelblue;
+}
+
+.list-group-item{
+  border-color: steelblue;
+}
+
+#filter-btn {
+  border-color: steelblue;
+  color: black;
+}
+
+#filter-btn:hover {
+  background: #2196F3;
+  color: white;
+}
+
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 
