@@ -25,7 +25,7 @@ var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 // Load data from csv
-d3.csv("../resources/take_3.csv").then(function(data) {
+d3.csv("/data/take_3.csv").then(function(data) {
 var crashData=data  
 
   // Print the forceData
