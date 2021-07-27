@@ -1,26 +1,3 @@
-
-//var dataStr = JSON.stringify("/assets/data.js")
-//    console.log(data);
-
-// var data = JSON.parse(dataStr);
-
-// Crash data
-// var data = dataStr;
-
-// var mark = L.marker(
-//  L.latLng(
-//    parseFloat(data["latitude"]),
-//    parseFloat(data["long"])
-//  )
-//);
-
-// d3
-// .json("assets/js/data.js")
-// .then(data=>{
-//   console.log(data);
-//   var crash_data = data;
-//   console.log(crash_data)
-
 // Load data from csv
 d3.csv("/data/take_3.csv").then(function(data) {
   var crash_data = data;
