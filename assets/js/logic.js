@@ -199,6 +199,18 @@ var crashes = [
     fatalities: 17.0,
     date: "6/27/1971"
   },
+  {
+    name: "Amsterdam",
+    location: [52.3732, 4.8907],
+    fatalities: 9.0,
+    date: "2/25/2009"
+  },
+  {
+    name: "Butte",
+    location: [46.0128, -112.5356],
+    fatalities: 14.0,
+    date: "3/22/2009"
+  }
 ];
 
 
@@ -227,6 +239,6 @@ for (var i = 0; i < crashes.length; i++) {
     color: color,
     fillColor: color,
     // Adjust radius
-    radius: crashes[i].fatalities * 25
+    radius: crashes[i].fatalities
   }).bindPopup("<h1>" + crashes[i].name + "</h1> <hr> <h3>Fatalities: " + crashes[i].fatalities + "</h3> <hr> <h3>" + crashes[i].date + "<h3>").addTo(myMap);
 }
